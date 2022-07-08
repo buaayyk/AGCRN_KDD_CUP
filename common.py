@@ -256,7 +256,7 @@ def traverse_wind_farm(method, params, model_path, flag='train'):
     """
     responses = []
     start_time = time.time()
-    for i in range(params["groups"]):
+    for i in range(1, params["groups"]):
         params["group_id"] = i
         exp = Experiment(params)
         if 'train' == flag:
