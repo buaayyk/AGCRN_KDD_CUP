@@ -43,7 +43,7 @@ def prep_env():
     parser.add_argument('--total_size', type=int, default=245, help='Number of days for the whole dataset')
     parser.add_argument('--lstm_layer', type=int, default=2, help='Number of LSTM layers')
     parser.add_argument('--dropout', type=float, default=0.05, help='Dropout')
-    parser.add_argument('--num_workers', type=int, default=0, help='#workers for data loader')
+    parser.add_argument('--num_workers', type=int, default=2, help='#workers for data loader')
     parser.add_argument('--train_epochs', type=int, default=20, help='Train epochs')
     parser.add_argument('--batch_size', type=int, default=32, help='Batch size for the input training data')
     parser.add_argument('--patience', type=int, default=3, help='Early stopping patience')
