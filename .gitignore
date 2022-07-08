@@ -1,0 +1,8 @@
+/__init__.py
+/a.csv
+/test.py
+/preprocess.py
+/checkpoints/
+.idea
+__pycache__
+data
